@@ -45,8 +45,10 @@
 .site-nav__link_active {
   color: var(--accent-color);
 }
+
 .active {
   position: relative;
+  color: var(--accent-color);
 
   &::after {
     content: '';
